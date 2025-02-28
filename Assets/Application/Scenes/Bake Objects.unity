@@ -406,6 +406,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 16816698, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.11624541
+      objectReference: {fileID: 0}
+    - target: {fileID: 16816698, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0589797
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344066997674481226, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344066997674481226, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344066997674481226, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344066997674481226, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4888780620533070118, guid: 6d674cbc5b4e7a34db71a12cfc68d9d3,
         type: 3}
       propertyPath: m_Name

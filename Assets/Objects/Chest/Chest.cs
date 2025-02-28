@@ -17,11 +17,18 @@ namespace Varwin.Types.Chest_af11eb3363a5470791085694463ffb25
             }
         }
 
+        [VarwinInspector(English: "Close chest on start")]
+        public bool CloseOnStart { get; set; }
+
         private Animator _animator;
 
         private void Awake()
         {
             _animator = GetComponent<Animator>();
+        }
+        private void Start()
+        {
+            IsOpened = !CloseOnStart;
         }
 
         [Checker(English: "Chest is opened", Russian: "Сундук открыт")]

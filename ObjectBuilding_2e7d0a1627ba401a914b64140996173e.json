@@ -1,0 +1,39 @@
+{
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "Chest",
+      "ObjectGuid": "af11eb33-63a5-4707-9108-5694463ffb25",
+      "PrefabPath": "Assets/Objects/Chest/Chest.prefab",
+      "RootGuid": "af11eb33-63a5-4707-9108-5694463ffb25",
+      "NewGuid": "d1926d53-b3fe-4297-afd7-59bb67e2aefb",
+      "FolderPath": "Assets/Objects/Chest",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Chest\"},\"Description\":{\"en\":\"Chest\"},\"Guid\":\"d1926d53-b3fe-4297-afd7-59bb67e2aefb\",\"RootGuid\":\"af11eb33-63a5-4707-9108-5694463ffb25\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Chest_af11eb3363a5470791085694463ffb25.ChestWrapper\",\"blocks\":[{\"name\":\"ChestIsOpened\",\"type\":\"checker\",\"isCoroutine\":false,\"isObsolete\":false,\"items\":[{\"method\":\"ChestIsOpened\",\"i18n\":{\"en\":\"Chest is opened\",\"ru\":\"Сундук открыт\"}}]},{\"name\":\"Top\",\"type\":\"action\",\"isCoroutine\":false,\"isObsolete\":false,\"items\":[{\"method\":\"OpenTheChest\",\"i18n\":{\"en\":\"Open the chest\",\"ru\":\"Открыть сундук\"}},{\"method\":\"CloseTheChest\",\"i18n\":{\"en\":\"Close the chest\",\"ru\":\"Закрыть сундук\"}}]}]},\"Author\":{\"Name\":\"Anonymous\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-02-28T17:20:20Z\",\"SdkVersion\":\"17.9.182\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Chest\",\"Assembly\":[\"Chest_af11eb3363a5470791085694463ffb25_6f42b2f5_4eb17127.dll\"]}",
+      "StartTime": "2025-02-28T20:20:20.6840987+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Freelance/Artek Quest/Library/ScriptAssemblies/Chest_af11eb3363a5470791085694463ffb25_6f42b2f5_4eb17127.dll"
+      ],
+      "TagsPath": "Assets/Objects/Chest/tags.txt",
+      "IconPath": "Assets/Objects/Chest/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 0,
+  "CompletedStateCount": 11,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "Chest_af11eb3363a5470791085694463ffb25_6f42b2f5"
+    ],
+    "NewAssemblyNames": [
+      "Chest_af11eb3363a5470791085694463ffb25_6f42b2f5_4eb17127"
+    ]
+  },
+  "Progress": 0.733333349,
+  "Label": "Building asset bundles...",
+  "DisplayProgress": 0.7260433,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 15
+}
