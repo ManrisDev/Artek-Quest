@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 3699831959
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4fd9d87e5f64f744dc05db3dcdca9e00
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5226a4b1df4d7d7de6a62d5625d4990a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 05bb8221e614a6e4aab244f74e902825, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e0fef5926f5abc4abda01eb169b6e87, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b220ea0c852a049499171b51c58596c1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.ComponentReference
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.ComponentReferenceCollection
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.GroupSignature
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.LocalizationDictionary
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.LocalizationString
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.MethodSignature
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.SignatureCollection
+Assets:
+- Assets/Objects/Chest/Chest.prefab
+Dependencies: []

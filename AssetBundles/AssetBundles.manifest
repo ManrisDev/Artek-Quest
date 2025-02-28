@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 1163591255
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: android_chest_af11eb3363a5470791085694463ffb25
+      Dependencies: {}
+    Info_1:
+      Name: excludedresources
+      Dependencies: {}
