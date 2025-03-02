@@ -626,8 +626,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651508024}
-  m_LocalRotation: {x: 0.007109538, y: -0.9481422, z: -0.022920229, w: -0.31693944}
-  m_LocalPosition: {x: 364.50443, y: 18.604158, z: 584.84534}
+  m_LocalRotation: {x: 0.0033727824, y: -0.98481536, z: -0.01920463, w: -0.17250663}
+  m_LocalPosition: {x: 627.9917, y: 74.13273, z: 771.6316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -656,7 +656,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651508024}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -881,7 +881,7 @@ WindZone:
   m_Enabled: 1
   m_Mode: 0
   m_Radius: 20
-  m_WindMain: 1
+  m_WindMain: 0.1
   m_WindTurbulence: 0.1
   m_WindPulseMagnitude: -1
   m_WindPulseFrequency: 0.01
@@ -1959,8 +1959,8 @@ MonoBehaviour:
     IsValidDictionary: 1
   Name: 
   Description: Scene template description
-  Guid: bad6f3cf-4652-4f07-910a-f9b47497d6c6
-  RootGuid: 2dd56b6e-9498-4f10-b734-b2dee571a351
+  Guid: 264ffd06-db22-47f6-a673-cb0f50b85106
+  RootGuid: ae244bab-d7a7-4a80-9efc-ab2205147c2a
   Image: bundle.png
   AssetBundleLabel: bundle
   DllNames: []
@@ -1970,10 +1970,10 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 25.02.2025 0:23:03 +03:00
+  BuiltAt: 01.03.2025 18:39:08 +03:00
   SourcesIncluded: 0
   MobileReady: 1
-  SceneGuid: e1a23592e5e9f7043947c6becf0a0df0
+  SceneGuid: 5cc9bef4b1ab4f848a0aff9ed2dce709
   CurrentVersionWasBuilt: 1
   CurrentVersionWasBuiltAsMobileReady: 1
   Changelog: 
