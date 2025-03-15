@@ -712,7 +712,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651508024}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -1930,24 +1930,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23bbe2a53f9ae6643a5c64fdcd6232e6, type: 3}
---- !u!1 &1440980248 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1152052189803245944, guid: be3a74ee4c9d4d899462b72a41f62728,
-    type: 3}
-  m_PrefabInstance: {fileID: 98449526}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1440980253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440980248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 795e4427bac67c044a82cf33d24df937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1522310093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,7 +2233,7 @@ MonoBehaviour:
     IsValidDictionary: 1
   Name: 
   Description: Scene template description
-  Guid: 264ffd06-db22-47f6-a673-cb0f50b85106
+  Guid: 61ddf311-c8c1-4017-8937-4271d23cffb5
   RootGuid: ae244bab-d7a7-4a80-9efc-ab2205147c2a
   Image: bundle.png
   AssetBundleLabel: bundle
@@ -2262,14 +2244,14 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 01.03.2025 18:39:08 +03:00
+  BuiltAt: 15.03.2025 17:44:21 +03:00
   SourcesIncluded: 0
   MobileReady: 1
   SceneGuid: 5cc9bef4b1ab4f848a0aff9ed2dce709
   CurrentVersionWasBuilt: 1
   CurrentVersionWasBuiltAsMobileReady: 1
   Changelog: 
-  UseScripts: 1
+  UseScripts: 0
 --- !u!4 &1740102572
 Transform:
   m_ObjectHideFlags: 0
