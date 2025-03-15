@@ -2233,7 +2233,7 @@ MonoBehaviour:
     IsValidDictionary: 1
   Name: 
   Description: Scene template description
-  Guid: 61ddf311-c8c1-4017-8937-4271d23cffb5
+  Guid: 100fcf94-5d49-403a-834d-d5af2f74b7e8
   RootGuid: ae244bab-d7a7-4a80-9efc-ab2205147c2a
   Image: bundle.png
   AssetBundleLabel: bundle
@@ -2244,7 +2244,7 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 15.03.2025 17:44:21 +03:00
+  BuiltAt: 15.03.2025 18:07:05 +03:00
   SourcesIncluded: 0
   MobileReady: 1
   SceneGuid: 5cc9bef4b1ab4f848a0aff9ed2dce709
