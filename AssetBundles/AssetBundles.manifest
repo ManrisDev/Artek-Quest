@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2597346812
+CRC: 817536378
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: android_black sea shore
+      Name: android_briefcase_f894de00da834a25a7742da6b0374248
       Dependencies: {}
     Info_1:
       Name: excludedresources

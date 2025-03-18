@@ -1,0 +1,39 @@
+{
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "Briefcase",
+      "ObjectGuid": "f894de00-da83-4a25-a774-2da6b0374248",
+      "PrefabPath": "Assets/Objects/Briefcase/Briefcase.prefab",
+      "RootGuid": "f894de00-da83-4a25-a774-2da6b0374248",
+      "NewGuid": "d9a56e44-7bd5-4f0d-b4ff-5d1b8fea835c",
+      "FolderPath": "Assets/Objects/Briefcase",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Briefcase\"},\"Description\":{\"en\":\"Briefcase\"},\"Guid\":\"d9a56e44-7bd5-4f0d-b4ff-5d1b8fea835c\",\"RootGuid\":\"f894de00-da83-4a25-a774-2da6b0374248\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Briefcase_f894de00da834a25a7742da6b0374248.BriefcaseWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"Anonymous\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-03-18T15:50:20Z\",\"SdkVersion\":\"17.9.182\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Briefcase\",\"Assembly\":[\"Briefcase_f894de00da834a25a7742da6b0374248_2daff1a4.dll\"]}",
+      "StartTime": "2025-03-18T18:50:20.094324+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Freelance/Artek Quest/Library/ScriptAssemblies/Briefcase_f894de00da834a25a7742da6b0374248_2daff1a4.dll"
+      ],
+      "TagsPath": "Assets/Objects/Briefcase/tags.txt",
+      "IconPath": "Assets/Objects/Briefcase/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 0,
+  "CompletedStateCount": 11,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "Briefcase_f894de00da834a25a7742da6b0374248"
+    ],
+    "NewAssemblyNames": [
+      "Briefcase_f894de00da834a25a7742da6b0374248_2daff1a4"
+    ]
+  },
+  "Progress": 0.733333349,
+  "Label": "Building asset bundles...",
+  "DisplayProgress": 0.7260433,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 15
+}
