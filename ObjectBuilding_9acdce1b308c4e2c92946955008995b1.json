@@ -1,0 +1,39 @@
+{
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "Briefcase",
+      "ObjectGuid": "f894de00-da83-4a25-a774-2da6b0374248",
+      "PrefabPath": "Assets/Objects/Briefcase/Briefcase.prefab",
+      "RootGuid": "f894de00-da83-4a25-a774-2da6b0374248",
+      "NewGuid": "0c268a39-3294-474c-bfba-4d3c895f4aac",
+      "FolderPath": "Assets/Objects/Briefcase",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Briefcase\"},\"Description\":{\"en\":\"Briefcase\"},\"Guid\":\"0c268a39-3294-474c-bfba-4d3c895f4aac\",\"RootGuid\":\"f894de00-da83-4a25-a774-2da6b0374248\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Briefcase_f894de00da834a25a7742da6b0374248.BriefcaseWrapper\",\"blocks\":[{\"name\":\"AttachGameObjectToTheCover\",\"type\":\"action\",\"isCoroutine\":false,\"isObsolete\":false,\"items\":[{\"method\":\"AttachGameObjectToTheCover\",\"i18n\":{\"en\":\"Attach the object to the cover\"}}],\"args\":[{\"valueType\":\"Varwin.Public.VarwinObject\"}]}]},\"Author\":{\"Name\":\"Anonymous\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-03-19T10:48:04Z\",\"SdkVersion\":\"17.9.182\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Briefcase\",\"Assembly\":[\"Briefcase_f894de00da834a25a7742da6b0374248_50151b84_c8ad9ea7.dll\"]}",
+      "StartTime": "2025-03-19T13:48:04.4908063+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Freelance/Artek Quest/Library/ScriptAssemblies/Briefcase_f894de00da834a25a7742da6b0374248_50151b84_c8ad9ea7.dll"
+      ],
+      "TagsPath": "Assets/Objects/Briefcase/tags.txt",
+      "IconPath": "Assets/Objects/Briefcase/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 0,
+  "CompletedStateCount": 11,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "Briefcase_f894de00da834a25a7742da6b0374248_50151b84"
+    ],
+    "NewAssemblyNames": [
+      "Briefcase_f894de00da834a25a7742da6b0374248_50151b84_c8ad9ea7"
+    ]
+  },
+  "Progress": 0.733333349,
+  "Label": "Building asset bundles...",
+  "DisplayProgress": 0.7260433,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 15
+}

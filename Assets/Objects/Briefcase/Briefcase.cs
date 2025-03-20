@@ -7,13 +7,13 @@ namespace Varwin.Types.Briefcase_f894de00da834a25a7742da6b0374248
     [VarwinComponent(English: "Briefcase")]
     public class Briefcase : VarwinObject
     {
-        [Header("Test")]
-        public int WheelPosition;
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-                _wheels[WheelPosition].OnUseStart(null);
-        }
+        //[Header("Test")]
+        //public int WheelPosition;
+        //private void Update()
+        //{
+        //    if (Input.GetKeyDown(KeyCode.E))
+        //        _wheels[WheelPosition].OnUseStart(null);
+        //}
 
         private bool _isOpened = false;
         private bool IsOpened
@@ -27,8 +27,9 @@ namespace Varwin.Types.Briefcase_f894de00da834a25a7742da6b0374248
         }
 
         [Header("Components")]
-        [SerializeField] private List<Wheel> _wheels;
+        [SerializeField] private Transform _upperPart;
         [SerializeField] private AudioSource _audioSource;
+        [SerializeField] private List<Wheel> _wheels;
         [Space]
         public AudioClip OpenSound;
         public AudioClip ShelkSound;
@@ -37,12 +38,15 @@ namespace Varwin.Types.Briefcase_f894de00da834a25a7742da6b0374248
         [VarwinInspector("Close chest on start")]
         public bool CloseOnStart { get; set; } = true;
 
-        [Variable("The combination to open")]
-        public int OpenCombination { get; set; }
+        [VarwinInspector("The combination to open")]
+        [field:SerializeField] public int OpenCombination { get; set; }
 
         [VarwinInspector("Sounds volume")]
         public float SoundsVolume { get; set; } = 1f;
         #endregion
+        public delegate void BriefcaseEventHandler();
+        [LogicEvent(English: "Breefcase is opened")]
+        public event BriefcaseEventHandler BreefcaseIsOpened;
 
         private Animator _animator;
 
@@ -66,6 +70,9 @@ namespace Varwin.Types.Briefcase_f894de00da834a25a7742da6b0374248
                 _audioSource.volume = SoundsVolume;
         }
 
+        [Action(English: "Set child to upper part")]
+        public void SetChild(Wrapper wrapper) => wrapper.GetGameObject().transform.parent = _upperPart;
+
         private void OnNumberStartChanging() => _audioSource.PlayOneShot(ShelkSound);
         private void OnNumberChange(int position, int number)
         {
@@ -81,8 +88,10 @@ namespace Varwin.Types.Briefcase_f894de00da834a25a7742da6b0374248
 
         public void OpenTheBriefcase()
         {
+            if (IsOpened) return;
             _audioSource.PlayOneShot(OpenSound);
             IsOpened = true;
+            BreefcaseIsOpened?.Invoke();
         }
     }
 }

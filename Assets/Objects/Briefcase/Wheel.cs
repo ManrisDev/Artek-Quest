@@ -16,33 +16,24 @@ public class Wheel : MonoBehaviour, IUseStartInteractionAware
     [SerializeField] private float _rotationAngle = 36f;
 
     private int _currentNumber = 0;
-    private float currentRotationAngle = -180f;
+    private float currentRotationAngle = 0;
     private bool _blockInut;
 
     public void OnUseStart(UseInteractionContext context)
     {
         if (!_blockInut)
-            StartCoroutine(Rotate());
+        {
+            NumberStartChanging?.Invoke();
+            _blockInut = true;
+
+            float targetRotationAngle = (currentRotationAngle + _rotationAngle) % 360;
+
+            transform.localEulerAngles = new(targetRotationAngle, 0, 180);
+            currentRotationAngle = targetRotationAngle;
+
+            _currentNumber = (_currentNumber + 1) % 10;
+            _blockInut = false;
+            NumberWasChanged?.Invoke(_position, _currentNumber);
+        }
     }
-
-    private IEnumerator Rotate()
-    {
-        NumberStartChanging?.Invoke();
-        _blockInut = true;
-
-        // Убедимся, что вращение только в одну сторону  
-        float targetRotationAngle = (currentRotationAngle + _rotationAngle) % 360;
-
-        Vector3 targetEulerAngles = new(targetRotationAngle, 0, 180);
-
-        yield return null;
-
-        transform.eulerAngles = targetEulerAngles;
-        currentRotationAngle = targetRotationAngle;
-
-        _currentNumber++;
-        _blockInut = false;
-        NumberWasChanged?.Invoke(_position, _currentNumber);
-    }
-    private float AngleDifference(float a, float b) => (a - b + 540) % 360 - 180;
 }

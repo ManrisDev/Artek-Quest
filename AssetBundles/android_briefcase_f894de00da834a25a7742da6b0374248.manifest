@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4061305788
+CRC: 2251108444
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 07c3d50cf9ecbadc009bd4fe22edb4ad
+    Hash: f6114e8b4697a6576d48d0652a66de23
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1ffacffcccb4db783a6ee43c86753d04
+    Hash: d9515bda8146f3f19416be0d2d481f19
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,14 +29,26 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8c06b6fd45b7e44382c160a2a704358, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8e0fef5926f5abc4abda01eb169b6e87, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b220ea0c852a049499171b51c58596c1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c7a950a3bfe5b644ebd263cbf4adf5de, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f8c06b6fd45b7e44382c160a2a704358, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
@@ -48,6 +60,8 @@ SerializeReferenceClassIdentifiers:
   ClassName: Varwin.Public.LocalizationDictionary
 - AssemblyName: VarwinCore
   ClassName: Varwin.Public.LocalizationString
+- AssemblyName: VarwinCore
+  ClassName: Varwin.Public.MethodSignature
 - AssemblyName: VarwinCore
   ClassName: Varwin.Public.SignatureCollection
 Assets:
