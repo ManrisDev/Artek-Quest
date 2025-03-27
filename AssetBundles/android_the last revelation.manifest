@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 1266561349
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f49a5cf407917417b317a39b6d987230
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a63f2a4e05740d8d5cb23bfdc1b6e98f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b7f473b40cbf8c4fa4e8d66d8ff44a6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bd4f33ad1da4a6c4d99bc28238c47dfa, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 220
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Application/Scenes/The Last Revelation.unity
+Dependencies: []
